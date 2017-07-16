@@ -5,10 +5,7 @@ body {
   background-size: cover;
   height: 600px;
   width: 100%;
-
-
 }
-
 
 .page-header {
 
@@ -18,47 +15,25 @@ body {
   font-family: 'Cinzel', sans-serif;
   font-size: 26px;
   color: #045BB8;
-
 }
 
-h1 {
-  color: #045BB8;
-  font-size: 4em;
-  font-weight: 1000;
-
-
-
-
-}
-
-
-
-h2 {
-  color: #045BB8;
-  font-size: 1.7em;
-  font-weight: 700;
-
-
-
-}
-.top-menu{
+.top-menu {
         color: #87CEFA;
         float: right;
         font-size: 26pt;
         margin-right: 10px;
-
-    }
+}
 
 
 
 .post-form textarea, .post-form input {
         width: 120%;
-    }
+}
 
 .content {
         margin-left: 40px;
         font-size: 15pt;
-    }
+}
 
 .comment {
     margin: 20px 0px 20px 20px;
@@ -68,4 +43,4 @@ h2 {
 .date {
         float: right;
         color: #828282;
-    }
+}
