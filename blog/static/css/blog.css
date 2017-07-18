@@ -7,6 +7,17 @@ body {
   width: 100%;
 }
 
+.photo {
+  position:relative;
+  float:left;
+  opacity: 0.86;
+  background:none;
+  margin:20px;
+  margin-bottom:5%;
+
+}
+
+
 .page-header {
 
   padding: 1em;

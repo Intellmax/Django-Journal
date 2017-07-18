@@ -2,20 +2,16 @@
 
 {% block content %}
  {% for photo in photos %}
-   <div class="photo">
-   
-   
-   <h3>{{photo.title}}</h3>
-   <img src="{{photo.img.url}}" height = 500>
+   <div class="photo">  
+    
+    <h1><a href ="{% url 'photo_detail' pk=photo.pk %}"> {{photo.title}} </h1> </a>
+    <h2><img src='{{photo.img.url}}' height = '500' width = '300'> </h2> 
+    
+    
    </div>
-   
   
+    
  {% endfor %}
-
-
-
-
 
 {% endblock %}
 
- 
