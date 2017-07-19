@@ -6,7 +6,7 @@ from django.db import models
 class Photo(models.Model):
   title = models.CharField("Photo Name", max_length=100)
   img = models.ImageField("Photo", upload_to='images/')
-  counter = models.IntegerField()
+  counter = models.PositiveIntegerField('counter',default = 0)
 class Meta:
     ordering = ['title']
     verbose_name = 'Photo'

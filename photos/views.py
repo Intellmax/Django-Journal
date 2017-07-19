@@ -9,9 +9,10 @@ def my_photo (request):
 
 def photo_detail (request, pk):
 	photo = get_object_or_404 (Photo, pk=pk)
-	views = Photo.objects.get (pk=pk)
-	views.counter = F("counter")+1
-	return render(request, 'photos/photo_detail.html', {'photo': photo})
+	count = Photo.objects.get (pk=pk)
+	count.counter = F('counter')+1
+	count.save()
+	return render(request, 'photos/photo_detail.html', {'photo': photo, 'count':count})
 
 
 
