@@ -1,0 +1,19 @@
+{% extends 'blog/base.html' %}
+
+{% block content %}
+
+ {% for popphoto in popphotos %}
+
+  <div class = "poptitle">{{ popphoto.title }}</div>
+  
+  <div class = "pop_detail"><img src='{{popphoto.img.url}}' height = '500' width = '500'></div>
+  <div class = "popdate">Photo published: {{ popphoto.published_date }}</div>
+
+
+
+
+
+
+
+ {% endfor %}
+{% endblock %}

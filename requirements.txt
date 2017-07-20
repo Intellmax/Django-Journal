@@ -1,0 +1,6 @@
+Django-1.11.2
+olefile-0.44-py3.4
+Pillow-4.2.1
+pip-9.0.1
+pytz-2017.2
+sorl_thumbnail-12.4
